@@ -10,12 +10,12 @@ namespace Binary_TreeApp.models
 
         public BinaryTree()
         {
+            //Ohne Parameter
             this.Root = null;
         }
 
         public BinaryTree(int Zahl)
         {
-            // 8888888888888888888888888
             this.Root = new BinaryTreeItem(Zahl,null,null);
         }
 
@@ -24,10 +24,7 @@ namespace Binary_TreeApp.models
             this.Root = bt.Root;
         }
 
-         public BinaryTree(BinaryTree bt)
-        {
-            this.Root = bt.Root;
-        }
+       
         
         public void Add(int? itemToAdd)
         {
