@@ -10,7 +10,7 @@ namespace Binary_TreeApp.models
 
         public BinaryTree()
         {
-            //Ohne Parameter
+            //OOOOOOOOOOOO
             this.Root = null;
         }
 
