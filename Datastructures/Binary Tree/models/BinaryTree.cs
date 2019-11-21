@@ -24,10 +24,6 @@ namespace Binary_TreeApp.models
             this.Root = bt.Root;
         }
 
-         public BinaryTree2(BinaryTree bt)
-        {
-            this.Root = bt.Root;
-        }
         
         public void Add(int? itemToAdd)
         {
