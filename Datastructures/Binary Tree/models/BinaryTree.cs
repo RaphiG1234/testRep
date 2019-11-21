@@ -15,6 +15,7 @@ namespace Binary_TreeApp.models
 
         public BinaryTree(int Zahl)
         {
+            // 44444444444444444444444
             this.Root = new BinaryTreeItem(Zahl,null,null);
         }
 
